@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.container{
+    background-image: url(https://lh3.googleusercontent.com/proxy/JYCHCjT2yfiufKGB3AYmCIPZ0PiTjB9w1SZnXvgH_WIJYKhdCL3dCUS5rLkf4HgCfVRRqw1Qpws1SKVeuVheLB36blxV3Ryb2FDIV2-pVp1Q9lXlrf50);
+    height: auto !important;
+    border: 3px solid sienna;
+    border-radius: 10px ;
+    box-shadow: 4px 7px 8px 9px red;
+    margin-top: 2% !important;
+    background-repeat: repeat-x;
+}
+.container:hover{
+    border: 3px solid sienna;
+    border-radius: 10px ;
+    box-shadow: 4px 7px 8px 9px #BF360C;
+}
+h1{
+    color: #ffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4em !important;
+    text-shadow: 4px 4px #FF6F00  !important;
+}
+#todo_item{
+    width: 70% !important;
+    height: 40px !important;
+    border: 3px solid sienna;
+    border-radius: 10px;
+    font-size: small !important;
+}
+#todo_item:hover{
+   background-color: #795548;
+}
+.content{
+    color: black !important;
+    width: 90%;
+    margin-left: 5%;
+}
+#list li{
+    list-style: none;
+    margin-top: 25% !important;
+    text-decoration: none;
+    border-bottom: 2px solid white!important;
+    color: red;
+    text-align: left !important;
+    font-size: small !important;
+}
+.btn{
+    background-color: #BF360C !important;
+    width: 70px !important;
+    height: 50px !important;
+    margin-left: 2px;
+    font-size: small !important;
+    font-family:  sans-serif !important;
+    border: 3px solid mistyrose !important;
+    border-radius: 10px !important;
+    text-shadow: 1px 1px whitesmoke;
+    float:  right !important;
+    text-align: center !important;
+}
+.btn:hover{
+    font-size: medium !important;
+    font-family:  sans-serif !important;
+    background-color: #FF6F00 !important;
+    border: 3px solid mistyrose !important;
+    border-radius: 10px !important;
+    text-shadow: 1px 1px whitesmoke;
+}
+#butn{
+    background-color:#BF360C; 
+    height: 50px; 
+    width: 100px;
+    font-size: medium !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    border:  3px solid mistyrose !important;
+    border-radius: 10px !important;
+    text-shadow: 0.5px 0.5px whitesmoke;
+}
+#butn:hover{
+    font-size: medium !important;
+    font-family:  'Times New Roman', Times, serif !important;
+    background-color: #FF6F00 !important;
+    border: 3px solid mistyrose !important;
+    border-radius: 10px !important;
+    text-shadow: 1px 1px whitesmoke;
+}
